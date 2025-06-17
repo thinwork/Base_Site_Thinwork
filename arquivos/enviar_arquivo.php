@@ -33,7 +33,7 @@ if (!isset($_SESSION)) session_start();
 class Authenticator {
 
   public static $username = "projeto";
-  public static $password = "p#montes2018";
+  public static $password = "******";
 
   public static function check() {
     if (
